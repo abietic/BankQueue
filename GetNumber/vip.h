@@ -29,7 +29,7 @@ void print(const char buff[] , int isvp)
 	buff += (len + 1);
 	int remain = atoi(buff);
 if(isvp == 1)
-   printf("客户您的号码为A%d,前方约有%d人,请耐心等待\n" , num , totalvip - 1);
+   printf("客户您的号码为A%d,前方约有%d人,请耐心等待\n" , num ,  remain);
 else if(isvp == 2)
   printf("客户您的号码为B%d,前方约有%d人,请耐心等待\n" , num , remain);
 }
